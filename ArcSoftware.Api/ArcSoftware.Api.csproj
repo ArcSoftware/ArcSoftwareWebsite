@@ -17,4 +17,9 @@
     <PackageReference Include="Swashbuckle.Core.Extension" Version="1.0.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ArcSoftware.Common\ArcSoftware.Common.csproj" />
+    <ProjectReference Include="..\ArcSoftware.Data\ArcSoftware.Data.csproj" />
+  </ItemGroup>
+
 </Project>
