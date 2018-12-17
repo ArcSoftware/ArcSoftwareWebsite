@@ -11,8 +11,8 @@ namespace ArcSoftware.Data.Models
             FileType = fileType;          
         }
 
-        public string FileName { get; }
+        public string FileName { get; set; }
         public string FileDirectory { get; set; }
-        public StaticFileType FileType { get; }
+        public StaticFileType FileType { get; set; }
     }
 }

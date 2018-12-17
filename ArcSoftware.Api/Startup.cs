@@ -12,8 +12,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Swashbuckle.AspNetCore.Swagger;
 
-
-namespace ArcSoftware
+namespace ArcSoftware.Api
 {
     [System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
     public class Startup
@@ -39,7 +38,7 @@ namespace ArcSoftware
 
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new Info { Version = "v1", Title = "ArcSoftware API v1", });
+                c.SwaggerDoc("v1", new Info { Version = "v1", Title = "ArcSoftware API v1" });
             });
 
             builder.Populate(services);
@@ -53,6 +52,7 @@ namespace ArcSoftware
             var config = new HttpConfiguration();
             AutofacConfig.Register(builder, config);
             WebApiConfig.Register(config);
+            SwaggerConfig.Register(config);
         }
         
         public void Configure(IApplicationBuilder app, ILoggerFactory loggerFactory)

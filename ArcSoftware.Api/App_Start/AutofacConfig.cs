@@ -4,7 +4,7 @@ using ArcSoftware.App_Start.DIModules;
 using Autofac;
 using Autofac.Integration.WebApi;
 
-namespace ArcSoftware.App_Start
+namespace ArcSoftware.Api
 {
     [System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
     internal static class AutofacConfig

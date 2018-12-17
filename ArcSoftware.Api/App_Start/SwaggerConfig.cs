@@ -1,7 +1,7 @@
 ﻿using System.Web.Http;
 using Swashbuckle.Application;
 
-namespace ArcSoftware.App_Start
+namespace ArcSoftware.Api
 {
     [System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
     internal static class SwaggerConfig

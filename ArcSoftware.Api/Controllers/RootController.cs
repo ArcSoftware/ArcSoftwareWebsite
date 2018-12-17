@@ -3,7 +3,7 @@ using System.Net.Http;
 using System.Web.Http;
 using Microsoft.AspNetCore.Mvc;
 
-namespace ArcSoftware.Controllers
+namespace ArcSoftware.Api.Controllers
 {
     public class RootController : ApiController
     {

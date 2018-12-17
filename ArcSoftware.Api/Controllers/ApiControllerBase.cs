@@ -7,7 +7,7 @@ using System.Web.Http;
 using ArcSoftware.Common.Models;
 using log4net;
 
-namespace ArcSoftware.Controllers
+namespace ArcSoftware.Api.Controllers
 {
     public class ApiControllerBase : ApiController
     {

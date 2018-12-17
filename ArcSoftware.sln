@@ -5,11 +5,9 @@ VisualStudioVersion = 15.0.28307.136
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArcSoftware.Api", "ArcSoftware.Api\ArcSoftware.Api.csproj", "{25C2A220-B1FC-454B-BDCB-CCD73B6EDE1E}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{30D252D7-3712-4761-A3DA-30CB4A7778D9}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArcSoftware.Common", "ArcSoftware.Common\ArcSoftware.Common.csproj", "{53A04C3C-F067-4CC2-A12D-FCF48A034934}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArcSoftware.Data", "ArcSoftware.Data\ArcSoftware.Data.csproj", "{6BC3C6EE-CB56-45A1-ADAC-0585A5160074}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArcSoftware.Data", "ArcSoftware.Data\ArcSoftware.Data.csproj", "{6BC3C6EE-CB56-45A1-ADAC-0585A5160074}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

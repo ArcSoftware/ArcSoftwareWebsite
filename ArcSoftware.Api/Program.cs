@@ -2,7 +2,7 @@
 using Autofac.Extensions.DependencyInjection;
 using Microsoft.AspNetCore.Hosting;
 
-namespace ArcSoftware
+namespace ArcSoftware.Api
 {
     public class Program
     {
