@@ -1,19 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
+﻿using System.IO;
 using System.Reflection;
-using System.Threading.Tasks;
 using System.Xml;
 using ArcSoftware.Api;
 using Autofac;
-using log4net;
 using Module = Autofac.Module;
 
 namespace ArcSoftware.App_Start.DIModules
 {
     [System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
-
     internal class LoggingModule : Module
     {
         private static readonly log4net.ILog Log =
@@ -30,14 +24,6 @@ namespace ArcSoftware.App_Start.DIModules
             log4net.Config.XmlConfigurator.Configure(repo, log4netConfig["log4net"]);
 
             Log.Info("Application - Main is invoked");
-
-
-//
-//
-//            log4net.Config.XmlConfigurator. .Configure();
-//            builder.RegisterInstance(LogManager.GetLogger("ArcSoftwareApi"))
-//                .As<ILog>()
-//                .SingleInstance();
         }
     }
 }

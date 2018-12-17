@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Net;
 using System.Net.Http;
 using System.Net.Http.Headers;
@@ -23,7 +24,6 @@ namespace ArcSoftware.Api.Controllers
         /// <param name="fileName"></param>
         /// <param name="variation"></param>
         [Microsoft.AspNetCore.Mvc.HttpGet]
-        [Microsoft.AspNetCore.Mvc.Route("soundboard")]
         [SwaggerOperation("PlayQuakeSound")]
         [SwaggerResponse(HttpStatusCode.OK, Type = typeof(string))]
         [SwaggerResponse(HttpStatusCode.NotFound)]
